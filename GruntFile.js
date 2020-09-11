@@ -2,10 +2,10 @@ const grunt_file = function(grunt) {
     grunt.initConfig({
         pkg : grunt.file.readJSON('package.json'),
         jshint : {
-            myFiles : ['./Server/<strong>/*.js','./Routes/</strong>/*.js']
+            myFiles : ['./app.js', './db.js', './routes/</strong>/*.js']
         },
         nodemon : {
-            script : './Server/'
+            script : './server/'
         }
     });
     grunt.loadNpmTasks('grunt-contrib-jshint');
