@@ -1,0 +1,29 @@
+{
+  "name": "web-socket-notification",
+  "version": "1.0.0",
+  "description": "web-socket-notification",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anhvoduy/web-socket-cluster.git"
+  },
+  "author": "voduyanh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anhvoduy/web-socket-cluster/issues"
+  },
+  "homepage": "https://github.com/anhvoduy/web-socket-cluster#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
